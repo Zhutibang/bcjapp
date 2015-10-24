@@ -1,13 +1,16 @@
 ## API List
 
-
+### 广告
 - [轮播广告](carousel.json)
 
+### 顶栏
 - [最新特卖](zuixintemai.json)
 - [人气热销](renqirexiao.json)
 - [女装](nvzhuang.json)
 - [男装](nanzhuang.json)
 - [鞋包](xiebao.json)
+
+### 隐藏栏
 
 - [全部](quanbu.json)
 - [潮流女装](chaoliunvzhuang.json)
