@@ -1,5 +1,7 @@
 ## API List
 
+主页链接[http://bcjapp.sinaapp.com/static/app/bcj/index.html](http://bcjapp.sinaapp.com/static/app/bcj/index.html)
+
 ### 广告
 - [轮播广告](carousel.json)
 
