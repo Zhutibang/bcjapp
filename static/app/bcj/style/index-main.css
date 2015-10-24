@@ -1,7 +1,1 @@
-html,
-body {
-  height: 100%;
-}
-.page-wrapper {
-  height: 100%;
-}
+.page-wrapper,body,html{height:100%}
