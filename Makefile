@@ -1,6 +1,9 @@
 REPO_NAME=bcjapp
 
-update_remote:
+push_remote:
+	git push origin master
+
+fetch_remote:
 	-git pull origin master
 
 deploy:
@@ -8,5 +11,10 @@ deploy:
 	-git remote add sae https://git.sinaapp.com/${REPO_NAME}
 	@echo "=====Add git remote OK======="
 	git push sae master:1
+
+commit_static:
+	# d := $(shell date)
+	git add -A ./static
+	git commit -m "Update at $(shell date)"
 
 .PHONY: deploy update_remote
