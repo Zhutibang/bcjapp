@@ -1,16 +1,23 @@
 ## API List
 
-主页链接[http://bcjapp.sinaapp.com/static/app/bcj/index.html](http://bcjapp.sinaapp.com/static/app/bcj/index.html)
+### 相关链接
+
+- 主页链接[http://bcjapp.sinaapp.com/static/app/bcj/index.html](http://bcjapp.sinaapp.com/static/app/bcj/index.html)
+- [JSON检测](http://www.kjson.com/)
 
 ### 广告
+
 - [轮播广告](carousel.json)
 
+
 ### 顶栏
+
 - [最新特卖](zuixintemai.json)
 - [人气热销](renqirexiao.json)
 - [女装](nvzhuang.json)
 - [男装](nanzhuang.json)
 - [鞋包](xiebao.json)
+
 
 ### 隐藏栏
 
