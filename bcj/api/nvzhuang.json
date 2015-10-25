@@ -1,3 +1,18 @@
 [
-    
+{
+    "title": "商品1",
+    "tag": "淘宝",
+    "price": "90",
+    "free_ship": "0",
+    "img": "//gju2.alicdn.com/bao/uploaded/i2/100000130048640034/TB2qNvhgXXXXXbCXpXXXXXXXXXX_!!0-0-juitemmedia.jpg_280x410Q50.jpg",
+    "link": "http://nmi.juhuasuan.com/market/ju/detail_wap.php?item_id=522805770577&spm=a2147.7632989.item522805770577.0&from="
+},
+{
+    "title": "商品2",
+    "tag": "天猫",
+    "price": "1",
+    "free_ship": "1",
+    "img": "//gju1.alicdn.com/bao/uploaded/i1/100000130932689546/TB2tOISgXXXXXccXpXXXXXXXXXX_!!0-0-juitemmedia.jpg_280x410Q50.jpg",
+    "link": "http://nmi.juhuasuan.com/market/ju/detail_wap.php?item_id=521882750579&spm=a2147.7632989.item521882750579.0&from="
+}
 ]
