@@ -13,7 +13,6 @@ deploy:
 	git push sae master:1
 
 commit_static:
-	# d := $(shell date)
 	git add -A ./static
 	git commit -m "Update at $(shell date)"
 
