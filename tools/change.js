@@ -29,8 +29,8 @@ json_file_list.forEach(function(json_file){
     // console.log(json)
 
     json.forEach(function(item){
-        item['ship_price'] = item['free_ship']
-        delete item['free_ship']
+        item['raw_price'] = '2333'
+        delete item['ship_price']
         result.push(item)
     })
 
