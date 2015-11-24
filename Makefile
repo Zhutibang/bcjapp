@@ -1,7 +1,7 @@
 REPO_NAME=bcjapp
 
 push_remote:
-	git push origin master
+	git push origin develop
 
 fetch_remote:
 	-git pull origin master
