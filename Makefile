@@ -10,7 +10,7 @@ deploy:
 	@echo "=====Add git remote======="
 	-git remote add sae https://git.sinaapp.com/${REPO_NAME}
 	@echo "=====Add git remote OK======="
-	git push sae master:1
+	git push sae develop:1
 
 commit_static:
 	git add -A ./static
