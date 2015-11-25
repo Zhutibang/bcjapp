@@ -3,7 +3,7 @@
     "img": "http://ww3.sinaimg.cn/large/6ee3e8b3gw1eydgspctq1j20k009gq4y.jpg",
     "action": "OPEN_ACTIVITY",
     "class_name": "cn.zhutibang.fenxiangbei.ui.BrowserActivity",
-    "url": "file:///android_asset/preview/html/help.html"
+    "url": "file:///android_asset/preview/html/beginer_guide.html"
 }, {
     "title": "邀请好友",
     "img": "http://ww3.sinaimg.cn/large/6ee3e8b3gw1eydgtlj041j20k009ggmy.jpg",
