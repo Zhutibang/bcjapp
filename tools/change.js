@@ -9,11 +9,11 @@ var json_file_list = [
     'quanbu',
     'chaoliunvzhuang',
     'xingnanfuzhuang',
-    'xiebaoshipin',
-    'wentiyule',
+    'xiebaopeishi',
+    'shumawenti',
     'jujiashenghuo',
     'kekoumeishi',
-    'meizhuangpeishi'
+    'hufumeizhuang'
 ]
 
 var dumpJSON = function(json_file_name, json){
