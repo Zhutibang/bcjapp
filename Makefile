@@ -1,7 +1,7 @@
 REPO_NAME=bcjapp
 
 push_remote:
-	git push origin develop
+	git push origin master
 
 fetch_remote:
 	-git pull origin master
@@ -10,10 +10,7 @@ deploy:
 	@echo "=====Add git remote======="
 	-git remote add sae https://git.sinaapp.com/${REPO_NAME}
 	@echo "=====Add git remote OK======="
-	git push sae develop:1
-
-merge_master:
-	git merge master
+	git push sae master:1
 
 commit_static:
 	git add -A ./static
