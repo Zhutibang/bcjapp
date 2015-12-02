@@ -12,6 +12,9 @@ deploy:
 	@echo "=====Add git remote OK======="
 	git push sae develop:1
 
+merge_master:
+	git merge master
+
 commit_static:
 	git add -A ./static
 	git commit -m "Static Update at $(shell date)"
