@@ -13,15 +13,15 @@
 ### 顶栏
 
 - [最新特卖](zuixintemai.json)
-- [人气热销](renqirexiao.json)
-- [女装](nvzhuang.json)
-- [男装](nanzhuang.json)
-- [鞋包](xiebao.json)
+- [数码](shumawenti.json) (对应下面的)
+- [女装](chaoliunvzhuang.json)
+- [男装](xingnanfuzhuang.json)
+- [鞋包](xiebaopeishi.json)
 
 
 ### 隐藏栏
 
-- [全部](quanbu.json)
+- [全部](quanbu.json) (所有商品的集合)
 - [潮流女装](chaoliunvzhuang.json)
 - [型男服装](xingnanfuzhuang.json)
 - [鞋包配饰](xiebaopeishi.json)
