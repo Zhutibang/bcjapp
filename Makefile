@@ -14,6 +14,12 @@ deploy:
 
 commit_static:
 	git add -A ./static
-	git commit -m "Update at $(shell date)"
+	git commit -m "Static Update at $(shell date)"
+
+commit_bcj_api:
+	git add -A ./bcj  
+	git commit -m "Bcj/app update at $(shell date)"
+	
+
 
 .PHONY: deploy update_remote
