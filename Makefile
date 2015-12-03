@@ -19,7 +19,10 @@ commit_static:
 commit_bcj_api:
 	git add -A ./bcj  
 	git commit -m "Bcj/app update at $(shell date)"
-	
+
+copy_local:
+	cp -r /Users/jayin/Desktop/html5slide/dist/static/app/bcj ~/dev/fenxiagnbei-project/bcjapp/static/app
+
 
 
 .PHONY: deploy update_remote
