@@ -12,11 +12,11 @@
 
 ### 顶栏
 
-- [最新特卖](zuixintemai.json)
-- [数码](shumawenti.json) (对应下面的)
-- [女装](chaoliunvzhuang.json)
-- [男装](xingnanfuzhuang.json)
-- [鞋包](xiebaopeishi.json)
+- [最新-最新特卖](zuixintemai.json)
+- [数码-数码文体](shumawenti.json)
+- [女装-潮流女装](chaoliunvzhuang.json)
+- [男装-型男服装](xingnanfuzhuang.json)
+- [鞋包-鞋包配饰](xiebaopeishi.json)
 
 
 ### 隐藏栏
