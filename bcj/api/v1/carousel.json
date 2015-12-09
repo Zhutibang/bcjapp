@@ -1,21 +1,7 @@
 [{
     "title": "8.8包邮1",
     "img": "http://ww2.sinaimg.cn/mw690/6ee3e8b3gw1eynhlh7espj20k009gtaz.jpg",
-    "action": "OPEN_ACTIVITY",
-    "class_name": "cn.zhutibang.fenxiangbei.ui.BrowserActivity",
+    "action": "",
+    "class_name": "",
     "url": "#"
-},
-{
-   "title": "8.8包邮1",
-   "img": "http://ww2.sinaimg.cn/large/6ee3e8b3gw1eyl68lv7l4j20k009g41w.jpg",
-   "action": "OPEN_ACTIVITY",
-   "class_name": "cn.zhutibang.fenxiangbei.ui.BrowserActivity",
-   "url": "#"
-},
-{
-  "title": "8.8包邮2",
-  "img": "http://ww2.sinaimg.cn/large/6ee3e8b3gw1eyl69g6bt5j20k009g40k.jpg",
-  "action": "OPEN_ACTIVITY",
-  "class_name": "cn.zhutibang.fenxiangbei.ui.BrowserActivity",
-  "url": "#"
 }]
