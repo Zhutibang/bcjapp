@@ -9,9 +9,12 @@ try{
     conf = require('./conf/local.conf')
 }catch(e){}
 
-var baseurl = 'http://api.fenxiangbei.com'
-if(process.env['mode'] === 'dev'){
-    baseurl = 'http://fenxiangbei.dev:8081/duoshuang'
+var baseurl = 'http://fenxiangbei.dev:8081/duoshuang'
+
+if(process.env['mode'] === 'production'){
+    baseurl = 'http://api.fenxiangbei.com'
+}else if(process.env['mode'] === 'development'){
+    baseurl = 'http://devapi.fenxiangbei.com'
 }
 
 var categorys = [

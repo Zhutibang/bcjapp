@@ -1,7 +1,10 @@
 main:
-	mode=product node upload_product.js
-
-dev:
 	mode=dev node upload_product.js
 
-.PHONY: main
+development:
+	mode=development node upload_product.js
+
+production:
+	mode=production node upload_product.js
+
+.PHONY: main development production
