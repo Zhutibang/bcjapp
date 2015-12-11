@@ -21,6 +21,8 @@ commit_bcj_api:
 	-git add -A ./bcj
 	-git commit -m "Bcj/app: update at $(shell date)"
 	@echo "=====Add to Remote db======="
+
+update_db:
 	cd ./tools/src && make production
 
 copy_local:
