@@ -33,14 +33,19 @@ var products = []
 
 categorys.forEach(function(category){
     // products = products.concat(require('../../bcj/api/v1/{category}.json'.replace('{category}', category)))
-    var ps = require('../../bcj/api/v1/{category}.json'.replace('{category}', category))
-    var newProducts = ps.map(function(p){
-        p['category'] = category
-        return p
-    })
-    products = products.concat(newProducts)
-
+    try{
+        var ps = require('../../bcj/api/v1/{category}.json'.replace('{category}', category))
+        var newProducts = ps.map(function(p){
+            p['category'] = category
+            return p
+        })
+        products = products.concat(newProducts)
+    }catch(err){
+        console.log(err)
+        process.exit(1)
+    }
 })
+
 async.series([
     function(cb){
         request.post({
